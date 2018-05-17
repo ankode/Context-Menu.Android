@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements OnMenuItemClickLi
         List<MenuObject> menuObjects = new ArrayList<>();
 
         MenuObject close = new MenuObject();
-        close.setResource(R.drawable.icn_close);
+        close.setResource(R.drawable.photo2);
 
         MenuObject send = new MenuObject("Send message");
         send.setResource(R.drawable.icn_1);
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity implements OnMenuItemClickLi
                 onBackPressed();
             }
         });
-        mToolBarTextView.setText("Samantha");
+        mToolBarTextView.setText("Ankush");
     }
 
     protected void addFragment(Fragment fragment, boolean addToBackStack, int containerId) {
